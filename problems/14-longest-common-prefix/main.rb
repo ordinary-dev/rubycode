@@ -2,12 +2,7 @@
 # @return {String}
 def longest_common_prefix(strs)
   # Find min length
-  min_length = strs[0].length
-  strs.each do |st|
-    if st.length < min_length
-      min_length = st.length
-    end
-  end
+  min_length = strs.map{|s| s.length}.min()
   
   res = ""
   for i in 0..min_length - 1 do
