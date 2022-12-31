@@ -4,14 +4,17 @@ Solutions of leetcode problems in Ruby.
 
 - [My profile](https://leetcode.com/ordinary-dev/)
 
-## How to run solutions
+I don't claim to be the best programmer.
+These solutions may not be the most optimal, but these are my solutions.
+
+## How to run
 
 ```bash
 cd problems/random-problem
 ruby test.rb
 ```
 
-## Solution structure
+## Structure
 
 - `main.rb` - the solution itself
 - `test.rb` - tests
